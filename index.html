@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ur">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Panto — Hero</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+
+<body>
+    <section class="hero-section">
+        <header class="hdr">
+            <div class="row">
+                <div class="logo">Panto</div>
+                <nav class="nav"> <a href="#">Furniture ▾</a> <a href="#">Shop</a> <a href="#">About Us</a> <a
+                        href="#">Contact</a> </nav>
+                <div class="right">
+                    <div class="cart"> <span class="bag"></span> <span class="badge">0</span> 
+                    </div>
+                    <input id="m" type="checkbox" class="toggle"> 
+                    <label for="m"class="mbtn">☰
+                    </label>
+                </div>
+            </div> 
+            <!-- mobile menu -->
+            <div class="mobile"> <a href="#">Furniture</a> <a href="#">Shop</a> <a href="#">About Us</a> <a
+                    href="#">Contact</a> </div>
+        </header>
+        <main class="hero">
+            <div class="hero-wrap">
+                <h1>Make Your Interior More<br>Minimalistic &amp; Modern</h1>
+                <p>Turn your room with panto into a lot more minimalist and modern with ease and speed</p>
+                <form class="search" role="search" onsubmit="return false;"> <input type="search"
+                        placeholder="Search furniture" aria-label="Search furniture"> <button type="submit"
+                        aria-label="Search">🔍</button> </form>
+            </div>
+        </main>
+    </section> 
+    <!-- Why Choose Us Section -->
+    <section class="why-choose">
+        <div class="container">
+            <div class="section-grid">
+                <div class="section-title">
+                    <h2>Why Choosing Us</h2>
+                </div>
+                <div class="features">
+                    <div class="feature">
+                        <h3>Luxury facilities</h3>
+                        <p>The advantage of hiring a workspace with us is that gives you comfortable service and
+                            all-around facilities.</p> <a href="#" class="more-link">More Info →</a>
+                    </div>
+                    <div class="feature">
+                        <h3>Affordable Price</h3>
+                        <p>You can get a workspace of the highest quality at an affordable price and still enjoy the
+                            facilities that are only here.</p> <a href="#" class="more-link">More Info →</a>
+                    </div>
+                    <div class="feature">
+                        <h3>Many Choices</h3>
+                        <p>We provide many unique work space choices so that you can choose the workspace to your
+                            liking.</p> <a href="#" class="more-link">More Info →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <!-- Best Selling Products -->
+    <section class="products">
+        <div class="container">
+            <h2 class="section-heading">Best Selling Product</h2>
+            <div class="sell">
+                <div class="product-tabs"> <button class="tab-btn active"
+                        onclick="filterProducts('chair')">Chair</button> <button class="tab-btn"
+                        onclick="filterProducts('beds')">Beds</button> <button class="tab-btn"
+                        onclick="filterProducts('sofa')">Sofa</button> <button class="tab-btn"
+                        onclick="filterProducts('lamp')">Lamp</button> </div>
+            </div>
+            <div class="products-grid">
+                <div class="product-card" data-category="chair">
+                    <img src="Sakarias Armchair.png" alt="Sakarias Armchair" class="product-img">
+                    <div class="product-info">
+                        <p class="product-category">Chair</p>
+                        <h3 class="product-name">Sakarias Armchair</h3>
+                        <div class="product-rating"> <span class="stars">⭐⭐⭐⭐⭐</span> </div>
+                        <div class="product-bottom">
+                            <span class="product-price">$ 392</span>
+                            <button class="add-btn">+</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="chair">
+                    <img src="Baltsar Chair.png" alt="Baltsar Chair" class="product-img">
+                    <div class="product-info">
+                        <p class="product-category">Chair</p>
+                        <h3 class="product-name">Baltsar Chair</h3>
+                        <div class="product-rating"> <span class="stars">⭐⭐⭐⭐⭐</span> </div>
+                        <div class="product-bottom">
+                            <span class="product-price">$ 299</span>
+                            <button class="add-btn">+</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="chair">
+                    <img src="Anjay Chair.png" alt="Anjay Chair" class="product-img">
+                    <div class="product-info">
+                        <p class="product-category">Chair</p>
+                        <h3 class="product-name">Anjay Chair</h3>
+                        <div class="product-rating"> <span class="stars">⭐⭐⭐⭐⭐</span> </div>
+                        <div class="product-bottom">
+                            <span class="product-price">$ 519</span>
+                            <button class="add-btn">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card"> <img src="Nyantuy Chair.png" alt="Nyantuy Chair" class="product-img">
+                    <div class="product-info">
+                        <p class="product-category">Chair</p>
+                        <h3 class="product-name">Nyantuy Chair</h3>
+                        <div class="product-rating"> <span class="stars">⭐⭐⭐⭐⭐</span> </div>
+                        <div class="product-bottom"> <span class="product-price">$ 921</span> <button
+                                class="add-btn">+</button> </div>
+                    </div>
+                </div>
+            </div>
+            <div class="view-all"> <a href="#" class="view-all-link">View All →</a> </div>
+        </div>
+    </section> 
+    <!-- Experience Section -->
+    <section class="experience">
+        <div class="container">
+            <div class="experience-grid">
+                <div class="experience-img">
+                    <img src="light_room_sofa.jpg" alt="Interior Experience">
+                </div>
+                <div class="experience-content">
+                    <p class="section-label">EXPERIENCES</p>
+                    <h2>We Provide You The Best Experience</h2>
+                    <p>
+                        You don't have to worry about the result because all of these interiors are made
+                        by people who are professionals in their fields with an elegant and luxurious
+                        style and with premium quality materials
+                    </p>
+                    <a href="#" class="more-link">More Info →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Materials Section -->
+    <section class="materials">
+        <div class="container">
+            <div class="materials-grid">
+                <div class="materials-content">
+                    <p class="section-label">MATERIALS</p>
+                    <h2>Very Serious Materials For Making Furniture</h2>
+                    <p>Because panto was very serious about designing furniture for our environment, using a very
+                        expensive and famous capital but at a relatively low price</p> <a href="#"
+                        class="more-link">More Info →</a>
+                </div>
+                <div class="materials-images">
+                    <div class="material-img-grid"> <img src="image1.jpg" alt="Material 1" class="material-img"> <img
+                            src="image2.jpg" alt="Material 2" class="material-img"> <img src="image3.jpg"
+                            alt="Material 3" class="material-img large"> </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <!-- Testimonials Section -->
+    <!-- index.html (only section part shown) -->
+<section class="testimonials">
+  <div class="container">
+    <p class="section-label">TESTIMONIALS</p>
+    <h2 class="section-heading">Our Client Reviews</h2>
+
+    <div class="testimonial-slider">
+      <button class="slider-btn prev" onclick="previousTestimonial()">❮</button>
+
+      <div class="testimonials-container">
+        <div class="testimonial-card">
+          <div class="testimonial-bg">
+            <img src="Bang Upin.jpg" alt="Background">
+          </div>
+
+          <div class="testimonial-content">
+            <!-- avatar will be absolutely positioned -->
+            <img src="Bang Upin pic.png" alt="Bang Upin" class="client-photo">
+
+            <div class="client-info">
+              <div class="client-details">
+                <h4>Bang Upin</h4>
+                <p>Pedagang Asongan</p>
+              </div>
+            </div>
+
+            <p class="testimonial-text">"Terimakasih banyak, kini ruanganku menjadi lebih mewah dan terlihat mahal"</p>
+
+            <div class="rating">★★★★★</div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-bg">
+            <img src="Ibuk Sukijan.jpg" alt="Background">
+          </div>
+
+          <div class="testimonial-content">
+            <img src="Ibuk Sukijan pic.png" alt="Ibuk Sukijan" class="client-photo">
+
+            <div class="client-info">
+              <div class="client-details">
+                <h4>Ibuk Sukijan</h4>
+                <p>Ibu Rumah Tangga</p>
+              </div>
+            </div>
+
+            <p class="testimonial-text">"Makasih Panto, aku sekarang berasa tinggal di apartemen karena barang yang terlihat mewah"</p>
+
+            <div class="rating">★★★★★</div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-bg">
+            <img src="Mpok Ina.jpg" alt="Background">
+          </div>
+
+          <div class="testimonial-content">
+            <img src="Mpok Ina pic.png" alt="Mpok Ina" class="client-photo">
+
+            <div class="client-info">
+              <div class="client-details">
+                <h4>Mpok Ina</h4>
+                <p>Karyawan Swasta</p>
+              </div>
+            </div>
+
+            <p class="testimonial-text">"Sangat terjangkau untuk kantong saya yang tidak terlalu banyak"</p>
+
+            <div class="rating">★★★★★</div>
+          </div>
+        </div>
+      </div>
+
+      <button class="slider-btn next" onclick="nextTestimonial()">❯</button>
+    </div>
+  </div>
+</section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Panto</h3>
+                    <p>The advantage of hiring a workspace with us is that gives you comfortable service and all-around
+                        facilities.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Email Marketing</a></li>
+                        <li><a href="#">Campaigns</a></li>
+                        <li><a href="#">Branding</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Furniture</h4>
+                    <ul>
+                        <li><a href="#">Beds</a></li>
+                        <li><a href="#">Chair</a></li>
+                        <li><a href="#">All</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links"> <a href="#"> <i class="fab fa-facebook-f"></i> Facebook</a> <a href="#">
+                            <i class="fab fa-twitter"></i>Twitter</a> <a href="#"> <i class="fab fa-instagram"></i>
+                            Instagram</a> </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright © 2021</p>
+                <div class="footer-links"> <a href="#">Terms & Conditions</a> <a href="#">Privacy Policy</a> </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
